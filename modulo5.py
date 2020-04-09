@@ -53,3 +53,19 @@ sort(key=None, reverse=False): Ordena los items de la lista en su lugar
 reverse(): Invierte los valores de la lista en su lugar
 copy(): Retorna una copia superficial de la lista.
 """
+# Diccionarios
+
+"""
+Son como listas, pero en vez de utilizar índices usa claves
+"""
+
+diccionario = {
+    'Juan': 35,
+    'Erica': 30,
+    'Pepe': 47,
+}
+
+print(diccionario.get('José', 32))  #Busca a José, si no existe devuelve 32
+# values() o keys()
+for edades in diccionario.values():
+    print(edades)
