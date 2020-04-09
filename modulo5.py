@@ -14,8 +14,8 @@ print(my_tuple[0])
 Secuencia de enteros inmutables
 range(comienzo,fin,pasos)
 """
-comienzo = 1
-fin = 10
+comienzo = 0
+fin = 100
 pasos = 2
 my_range = range(comienzo, fin, pasos)
 
