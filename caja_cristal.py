@@ -1,4 +1,5 @@
 import unittest
+import recursividad
 
 def es_mayor_de_edad(edad):
     if edad >= 18:
@@ -20,6 +21,11 @@ class PruebaDeCristalTest(unittest.TestCase):
 
         self.assertEqual(resultado, False)
 
+    def test_recursividad(self):
+        num = 2
+        resultado = recursividad.factorial(num)
+
+        self.assertEqual(resultado, 2)
 
 if __name__ == '__main__':
     unittest.main()
